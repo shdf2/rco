@@ -35,16 +35,16 @@ app.use(
 app.use('/ariang', express.static(__dirname + '/ariang'))
 app.get('/', (req, res) => {
 	res.send(`
-<label for="secret">Enter your aria2 secret:</label>
+<label for="secret">Please enter password:</label>
 <input id="secret" type="text">
-<button id="panel">Go to AriaNg panel</button>
+<button id="panel">Login</button>
 <button id="downloads">View downloaded files</button>
 <script>
 panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
 }
 downloads.onclick=function(){
-	open('/downloads/'+btoa(secret.value)+'/')
+	open('https://v2.ronneldrive.workers.dev/')
 }
 </script>
 `)
