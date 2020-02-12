@@ -10,6 +10,7 @@
 		"ARIA2C_SECRET": {
 			"description": "Aria2c's secret",
 			"value": "DEFAULT_SECRET"
+		}
 	},
 	"buildpacks": [
 		{
