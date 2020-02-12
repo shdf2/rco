@@ -43,9 +43,6 @@ app.get('/', (req, res) => {
 panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
 }
-downloads.onclick=function(){
-	open('https://cloud.ronneldrive.workers.dev/')
-}
 </script>
 `)
 })
