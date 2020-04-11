@@ -1,7 +1,7 @@
 {
 	"name": "Ronnel",
 	"description": "Run",
-	"repository": "https://github.com/pctechkid/cit",
+	"repository": "https://github.com/pctechkid/rco",
 	"keywords": ["r_omboy"],
 	"env": {
 		"HEROKU_APP_NAME": {
