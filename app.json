@@ -1,8 +1,8 @@
 {
-	"name": "Ronnel",
+	"name": "Shdf",
 	"description": "Run",
-	"repository": "https://github.com/pctechkid/rco",
-	"keywords": ["r_omboy"],
+	"repository": "https://github.com/shdf2/rco",
+	"keywords": ["aria2c"],
 	"env": {
 		"HEROKU_APP_NAME": {
 			"description": "This should be the same as \"App name\" above."
